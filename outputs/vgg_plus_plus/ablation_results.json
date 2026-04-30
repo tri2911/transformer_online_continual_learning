@@ -1,0 +1,226 @@
+{
+  "_completed_jobs": [
+    "replay_E_1",
+    "replay_E_2",
+    "replay_E_4",
+    "replay_E_8",
+    "replay_E_20",
+    "context_C_1",
+    "context_C_16",
+    "context_C_64",
+    "context_C_128",
+    "context_C_256",
+    "context_C_512",
+    "claim4:full_method",
+    "claim4:freeze_at_5k",
+    "claim4:sgd_only",
+    "compare:pi:42",
+    "compare:pi:123",
+    "compare:pi:456",
+    "compare:two_token:42",
+    "compare:two_token:123",
+    "compare:two_token:456",
+    "early_vs_late"
+  ],
+  "meta": {
+    "max_steps": 10000,
+    "features_cache": "data/features_cache.pt",
+    "use_feature_cache": false,
+    "resume_enabled": true
+  },
+  "replay_E_1": {
+    "step": 10000.0,
+    "loss": 1.685801386833191,
+    "instant_accuracy": 0.25999999046325684,
+    "rolling_accuracy": 0.2969999920874834,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_2": {
+    "step": 10000.0,
+    "loss": 1.606387734413147,
+    "instant_accuracy": 0.35999998450279236,
+    "rolling_accuracy": 0.3907999894693494,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_4": {
+    "step": 10000.0,
+    "loss": 2.095787525177002,
+    "instant_accuracy": 0.19999998807907104,
+    "rolling_accuracy": 0.5647599876150489,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_8": {
+    "step": 10000.0,
+    "loss": 0.9112374186515808,
+    "instant_accuracy": 0.85999995470047,
+    "rolling_accuracy": 0.7101599836945534,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_20": {
+    "step": 10000.0,
+    "loss": 0.346445769071579,
+    "instant_accuracy": 0.8999999761581421,
+    "rolling_accuracy": 0.8765199769735337,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "context_C_1": {
+    "step": 10000.0,
+    "loss": 0.06086885929107666,
+    "instant_accuracy": 0.9599999785423279,
+    "rolling_accuracy": 0.9713199785947799,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.3553,
+    "claim_metric_mean": 0.3553
+  },
+  "context_C_16": {
+    "step": 10000.0,
+    "loss": 0.12008768320083618,
+    "instant_accuracy": 0.9599999785423279,
+    "rolling_accuracy": 0.9644799782037735,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.368,
+    "claim_metric_mean": 0.368
+  },
+  "context_C_64": {
+    "step": 10000.0,
+    "loss": 0.05234355852007866,
+    "instant_accuracy": 1.0,
+    "rolling_accuracy": 0.9785199817419052,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.3702,
+    "claim_metric_mean": 0.3702
+  },
+  "context_C_128": {
+    "step": 10000.0,
+    "loss": 0.11197476834058762,
+    "instant_accuracy": 0.9399999976158142,
+    "rolling_accuracy": 0.959239979147911,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.2861,
+    "claim_metric_mean": 0.2861
+  },
+  "context_C_256": {
+    "step": 10000.0,
+    "loss": 0.2187327891588211,
+    "instant_accuracy": 0.8799999952316284,
+    "rolling_accuracy": 0.9311599776744842,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.2462,
+    "claim_metric_mean": 0.2462
+  },
+  "context_C_512": {
+    "step": 10000.0,
+    "loss": 0.3510058522224426,
+    "instant_accuracy": 0.8999999761581421,
+    "rolling_accuracy": 0.8765999776721001,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.2164,
+    "claim_metric_mean": 0.2164
+  },
+  "claim4": {
+    "full_method": {
+      "rolling_acc_mean": 0.8822399773001671,
+      "recovery_window_accuracy_mean": 0.2152,
+      "claim_metric_mean": 0.2152,
+      "instant_acc_last": 0.85999995470047,
+      "loss_last": 0.34387561678886414,
+      "steps_completed": 10000,
+      "tasks_completed": 100
+    },
+    "freeze_at_5k": {
+      "rolling_acc_mean": 0.715399982213974,
+      "recovery_window_accuracy_mean": 0.1991,
+      "claim_metric_mean": 0.1991,
+      "instant_acc_last": 0.5799999833106995,
+      "loss_last": 0.9054214358329773,
+      "steps_completed": 10000,
+      "tasks_completed": 100
+    },
+    "sgd_only": {
+      "rolling_acc_mean": 0.9675999783277511,
+      "recovery_window_accuracy_mean": 0.3528,
+      "claim_metric_mean": 0.3528,
+      "instant_acc_last": 0.9799999594688416,
+      "loss_last": 0.08402304351329803,
+      "steps_completed": 10000,
+      "tasks_completed": 100
+    }
+  },
+  "freeze_weights": {
+    "freeze_at_step": 5000,
+    "last": {
+      "rolling_accuracy": 0.715399982213974,
+      "instant_accuracy": 0.5799999833106995,
+      "loss": 0.9054214358329773
+    }
+  },
+  "pi_vs_two_token": {
+    "pi": {
+      "42": {
+        "step": 10000.0,
+        "loss": 0.3576735556125641,
+        "instant_accuracy": 0.85999995470047,
+        "rolling_accuracy": 0.8684799774885178,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "123": {
+        "step": 10000.0,
+        "loss": 0.3211615979671478,
+        "instant_accuracy": 0.8999999761581421,
+        "rolling_accuracy": 0.8797199765443802,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "456": {
+        "step": 10000.0,
+        "loss": 0.3131849467754364,
+        "instant_accuracy": 0.9799999594688416,
+        "rolling_accuracy": 0.9030799767971038,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      }
+    },
+    "two_token": {
+      "42": {
+        "step": 10000.0,
+        "loss": 0.07945387065410614,
+        "instant_accuracy": 0.9799999594688416,
+        "rolling_accuracy": 0.9640399780273438,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "123": {
+        "step": 10000.0,
+        "loss": 0.0987255871295929,
+        "instant_accuracy": 0.9599999785423279,
+        "rolling_accuracy": 0.9641599791049957,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "456": {
+        "step": 10000.0,
+        "loss": 0.08883535116910934,
+        "instant_accuracy": 0.9599999785423279,
+        "rolling_accuracy": 0.9665199793577194,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      }
+    }
+  },
+  "early_vs_late": {
+    "early_instant_accuracy_mean": 0.694999985396862,
+    "late_instant_accuracy_mean": 0.7799999862909317
+  }
+}

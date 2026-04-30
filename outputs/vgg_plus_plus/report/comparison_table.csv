@@ -1,0 +1,5 @@
+Method,Avg Acc (all tasks),Avg Acc (last 20 tasks),BWT (forgetting),FWT
+experience_replay,0.7580,0.9589,0.2393,0.2521
+online_sgd,0.3291,0.4197,-0.2725,-0.0780
+pi_transformer,0.7426,0.8798,0.1874,0.1253
+two_token_transformer,0.8346,0.9696,0.1549,0.1873

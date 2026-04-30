@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "max_steps": 10000,
+    "features_cache": "data/features_cache.pt",
+    "use_feature_cache": false,
+    "resume_enabled": true
+  },
+  "replay_E_1": {
+    "step": 10000.0,
+    "loss": 1.7825686931610107,
+    "instant_accuracy": 0.3199999928474426,
+    "rolling_accuracy": 0.23803999423235656,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_2": {
+    "step": 10000.0,
+    "loss": 1.4815764427185059,
+    "instant_accuracy": 0.4399999976158142,
+    "rolling_accuracy": 0.39831998870521784,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_4": {
+    "step": 10000.0,
+    "loss": 2.2631614208221436,
+    "instant_accuracy": 0.14000000059604645,
+    "rolling_accuracy": 0.5568399861007929,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_8": {
+    "step": 10000.0,
+    "loss": 0.9384552240371704,
+    "instant_accuracy": 0.85999995470047,
+    "rolling_accuracy": 0.730719981789589,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "replay_E_20": {
+    "step": 10000.0,
+    "loss": 0.37919244170188904,
+    "instant_accuracy": 0.8999999761581421,
+    "rolling_accuracy": 0.8739999763965607,
+    "steps_completed": 10000,
+    "tasks_completed": 100
+  },
+  "context_C_1": {
+    "step": 10000.0,
+    "loss": 0.029952509328722954,
+    "instant_accuracy": 1.0,
+    "rolling_accuracy": 0.9846399830579757,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.3881,
+    "claim_metric_mean": 0.3881
+  },
+  "context_C_16": {
+    "step": 10000.0,
+    "loss": 0.05720793083310127,
+    "instant_accuracy": 1.0,
+    "rolling_accuracy": 0.9801999816894531,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.3939,
+    "claim_metric_mean": 0.3939
+  },
+  "context_C_64": {
+    "step": 10000.0,
+    "loss": 0.03882339969277382,
+    "instant_accuracy": 0.9599999785423279,
+    "rolling_accuracy": 0.9821199815273285,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.3801,
+    "claim_metric_mean": 0.3801
+  },
+  "context_C_128": {
+    "step": 10000.0,
+    "loss": 0.07338898628950119,
+    "instant_accuracy": 0.9799999594688416,
+    "rolling_accuracy": 0.9713999799489975,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.2981,
+    "claim_metric_mean": 0.2981
+  },
+  "context_C_256": {
+    "step": 10000.0,
+    "loss": 0.15448987483978271,
+    "instant_accuracy": 0.9799999594688416,
+    "rolling_accuracy": 0.9365999774932862,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.2601,
+    "claim_metric_mean": 0.2601
+  },
+  "context_C_512": {
+    "step": 10000.0,
+    "loss": 0.35651275515556335,
+    "instant_accuracy": 0.9599999785423279,
+    "rolling_accuracy": 0.8773599749803543,
+    "steps_completed": 10000,
+    "tasks_completed": 100,
+    "recovery_window_accuracy_mean": 0.2363,
+    "claim_metric_mean": 0.2363
+  },
+  "claim4": {
+    "full_method": {
+      "rolling_acc_mean": 0.8742799770236015,
+      "recovery_window_accuracy_mean": 0.2305,
+      "claim_metric_mean": 0.2305,
+      "instant_acc_last": 0.8999999761581421,
+      "loss_last": 0.4032786786556244,
+      "steps_completed": 10000,
+      "tasks_completed": 100
+    },
+    "freeze_at_5k": {
+      "rolling_acc_mean": 0.7795599792003631,
+      "recovery_window_accuracy_mean": 0.23,
+      "claim_metric_mean": 0.23,
+      "instant_acc_last": 0.8399999737739563,
+      "loss_last": 0.6685503125190735,
+      "steps_completed": 10000,
+      "tasks_completed": 100
+    },
+    "sgd_only": {
+      "rolling_acc_mean": 0.9834399816989898,
+      "recovery_window_accuracy_mean": 0.3879,
+      "claim_metric_mean": 0.3879,
+      "instant_acc_last": 1.0,
+      "loss_last": 0.04760468006134033,
+      "steps_completed": 10000,
+      "tasks_completed": 100
+    }
+  },
+  "freeze_weights": {
+    "freeze_at_step": 5000,
+    "last": {
+      "rolling_accuracy": 0.7795599792003631,
+      "instant_accuracy": 0.8399999737739563,
+      "loss": 0.6685503125190735
+    }
+  },
+  "pi_vs_two_token": {
+    "pi": {
+      "42": {
+        "step": 10000.0,
+        "loss": 0.38246390223503113,
+        "instant_accuracy": 0.8799999952316284,
+        "rolling_accuracy": 0.8771599767208099,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "123": {
+        "step": 10000.0,
+        "loss": 0.34618833661079407,
+        "instant_accuracy": 0.8399999737739563,
+        "rolling_accuracy": 0.8695599768161774,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "456": {
+        "step": 10000.0,
+        "loss": 0.3046272397041321,
+        "instant_accuracy": 0.9399999976158142,
+        "rolling_accuracy": 0.8923999771475792,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      }
+    },
+    "two_token": {
+      "42": {
+        "step": 10000.0,
+        "loss": 0.07654399424791336,
+        "instant_accuracy": 0.9399999976158142,
+        "rolling_accuracy": 0.9691199796199799,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "123": {
+        "step": 10000.0,
+        "loss": 0.07768382877111435,
+        "instant_accuracy": 0.9399999976158142,
+        "rolling_accuracy": 0.9715599807500839,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      },
+      "456": {
+        "step": 10000.0,
+        "loss": 0.08322907984256744,
+        "instant_accuracy": 0.9799999594688416,
+        "rolling_accuracy": 0.9710799812078476,
+        "steps_completed": 10000,
+        "tasks_completed": 100
+      }
+    }
+  },
+  "early_vs_late": {
+    "early_instant_accuracy_mean": 0.7449999749660492,
+    "late_instant_accuracy_mean": 0.8299999684095383
+  },
+  "_completed_jobs": [
+    "replay_E_1",
+    "replay_E_2",
+    "replay_E_4",
+    "replay_E_8",
+    "replay_E_20",
+    "context_C_1",
+    "context_C_16",
+    "context_C_64",
+    "context_C_128",
+    "context_C_256",
+    "context_C_512",
+    "claim4:full_method",
+    "claim4:freeze_at_5k",
+    "claim4:sgd_only",
+    "compare:pi:42",
+    "compare:pi:123",
+    "compare:pi:456",
+    "compare:two_token:42",
+    "compare:two_token:123",
+    "compare:two_token:456",
+    "early_vs_late"
+  ]
+}
