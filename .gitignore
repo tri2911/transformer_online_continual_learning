@@ -43,6 +43,7 @@ outputs/
 
 # Jupyter execution artifacts
 notebooks/.ipynb_checkpoints/
+docs/PUBLIC_RELEASE.md
 
 # Do not publish tests or CLOC-related code
 tests/

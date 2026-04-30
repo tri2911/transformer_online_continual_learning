@@ -70,7 +70,6 @@ The strongest online continual learning systems should not rely only on gradient
 ## Runbook
 
 - Full run guide: [`docs/RUNBOOK.md`](docs/RUNBOOK.md)
-- Public release checklist: [`docs/PUBLIC_RELEASE.md`](docs/PUBLIC_RELEASE.md)
 
 ## Reference
 
