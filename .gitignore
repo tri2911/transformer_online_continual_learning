@@ -34,6 +34,7 @@ data/cifar-100-python.tar.gz
 
 # Training artifacts
 checkpoints/
+outputs/*/runs/raw/
 *.pt
 *.pth
 *.ckpt
