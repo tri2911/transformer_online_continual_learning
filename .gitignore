@@ -1,0 +1,49 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtualenv / local env
+.venv/
+venv/
+env/
+.python-version
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.out
+
+# Environment files
+.env
+.env.*
+
+# Local data/cache artifacts
+data/features_cache.pt
+data/cifar-100-python/
+data/cifar-100-python.tar.gz
+
+# Training artifacts
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Jupyter execution artifacts
+notebooks/.ipynb_checkpoints/
+
+# Do not publish tests or CLOC-related code
+tests/
+src/continuous_learning/data/cloc_eda.py
